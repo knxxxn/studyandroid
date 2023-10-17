@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Selectpage">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="관심 키워드를 선택해주세요"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="선택하신 키워드에 따라 책을 추천해드려요 :)"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="120dp"
+        tools:ignore="MissingConstraints" />
+
+    <android.widget.Button
+        android:id="@+id/button_best"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="베스트"
+        android:background="@drawable/button_stroke"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="190dp"
+        tools:ignore="MissingConstraints" />
+
+    <android.widget.Button
+        android:id="@+id/button_romance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="로맨스"
+        android:background="@drawable/button_stroke"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <android.widget.Button
+        android:id="@+id/button_fantasy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="판타지"
+        android:background="@drawable/button_stroke"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="305dp"
+        tools:layout_editor_absoluteY="190dp"
+        tools:ignore="MissingConstraints" />
+
+    <android.widget.Button
+        android:id="@+id/button_thriller"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="스릴러"
+        android:background="@drawable/button_stroke"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="290dp"
+        tools:ignore="MissingConstraints" />
+
+    <android.widget.Button
+        android:id="@+id/button_essay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="에세이"
+        android:background="@drawable/button_stroke"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="305dp"
+        tools:layout_editor_absoluteY="290dp"
+        tools:ignore="MissingConstraints" />
+
+    <android.widget.Button
+        android:id="@+id/button_think"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="추리"
+        android:background="@drawable/button_stroke"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="290dp"
+        tools:ignore="MissingConstraints" />
+
+    <android.widget.Button
+        android:id="@+id/button_believe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="종교"
+        android:background="@drawable/button_stroke"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="390dp"
+        tools:ignore="MissingConstraints" />
+
+    <android.widget.Button
+        android:id="@+id/button_mental"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="철학"
+        android:background="@drawable/button_stroke"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="390dp"
+        tools:ignore="MissingConstraints" />
+
+    <android.widget.Button
+        android:id="@+id/button_person"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="인문학"
+        android:background="@drawable/button_stroke"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="305dp"
+        tools:layout_editor_absoluteY="390dp"
+        tools:ignore="MissingConstraints" />
+
+    <android.widget.Button
+        android:id="@+id/button_study"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="참고서"
+        android:background="@drawable/button_stroke"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="490dp"
+        tools:ignore="MissingConstraints" />
+
+    <android.widget.Button
+        android:id="@+id/button_teen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="청소년"
+        android:background="@drawable/button_stroke"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="490dp"
+        tools:ignore="MissingConstraints" />
+
+    <android.widget.Button
+        android:id="@+id/button_foreign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="외국어"
+        android:background="@drawable/button_stroke"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="305dp"
+        tools:layout_editor_absoluteY="490dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button_next"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="채팅으로 찾기"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:backgroundTint="#186F65"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
